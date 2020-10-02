@@ -1,4 +1,4 @@
-/* @media only screen and (max-width: 2560px) {
+@media only screen and (max-width: 2560px) {
     main {
         background-color: lightgray;
         font-size: 17px;
@@ -76,4 +76,4 @@ iframe {
         margin: 0;
         width: 100%;
     }
-} */
+}
