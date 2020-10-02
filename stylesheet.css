@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Josephin Sans', sans-serif;
+}
+/* reason not to use id or class in this specifik code is because it is not needed when there is not much coding */
+header {
+    margin-bottom: 0;
+    text-align: center;
+}
+header img {
+    width: 20%;
+}
+.nav {
+    background-color: rgb(255, 104, 4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 15px 0;
+}
+/* nav ul li (horizontal) */
+nav ul li {
+    display: inline;
+    text-align: center;
+    margin: 0 40px;
+    width: 100%;
+    padding: 7px;
+}
+nav ul li a {
+    text-decoration: none !important;
+    color: white;
+}
+/* make text compressed, background color
+*/
+main {
+    margin: auto;
+    max-width: 1200px;
+    background-color: rgb(228, 224, 224);
+    padding: 15px;
+}
+
+.imgtwo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    filter: drop-shadow(0 5px 3px black);
+    margin-bottom: 20px;
+}
+    
+    figcaption {
+        
+        font-family: cursive, sans-serif !important;
+        font-size: 8px !important;
+        text-align: center;
+    
+    }
+    
+    #first  {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+/* H4 Gradient */
+h4 {
+    font-size: 20px;
+    text-transform: uppercase !important;
+    padding: 10px;
+    background-color: rgb(209, 137 , 4);
+    color:white;
+    background-image: linear-gradient(to right, rgb(255, 104, 4), white);
+    text-align: left !important;
+    margin: auto;
+    margin-bottom: 15px;
+}
+/* spacing between */
+section {
+    margin: 20px;
+    padding: 10px;
+}
+.column {
+    flex: 50%;
+}
+/* Making video left and text to the right of it */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    }
+    iframe {
+        width: 100%;
+        height: 300px;
+    }
+/* iframe{
+    width: 680px;
+    height: 325px;
+    border: solid rgb(255, 104, 4);
+}
+#video-left {
+    margin-right: 15px;
+}
+#right-text {
+    margin: 20px auto;
+    padding: 0;
+    max-width: 500px;
+    margin-left: auto;
+} */
+/* styling within the PDF's "column"  */
+#pdf-fil {
+    width: 57%;
+    margin-top: 0;
+}
+/* Copywrite styling */
+footer {
+    text-align: center;
+    font-size: 10px;
+    font-style: italic;
+    height: auto;
+    }

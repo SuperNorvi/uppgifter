@@ -1,0 +1,79 @@
+/* @media only screen and (max-width: 2560px) {
+    main {
+        background-color: lightgray;
+        font-size: 17px;
+        text-shadow: black;
+    }
+}
+@media only screen and (min-width: 769px) {
+   
+    #right-text {
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    main {
+        font-family: sans-serif;
+    }
+    h4 {
+        height: 10px;
+    }
+    .nav li {
+       display: block;
+       text-align: center;
+       font-size: small;
+       margin: auto;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+iframe {
+    width: 20%;
+    height: auto;
+}
+#right-text {
+    max-width: 100%;
+    text-align: left;
+    margin: auto;
+}
+}
+
+@media only screen and (max-width: 425px)
+{
+    main {
+        max-width: justify;
+        text-align: justify;
+        font-family: sans-serif;
+    }
+    header {
+        text-align: center;
+    }
+    .nav li {
+        display: block;
+        text-align: center;
+        font-size: small;
+        margin: auto;
+    }
+    main section figure figcaption { 
+        display: none;
+    }
+    .flex {
+        display: flex;
+        flex-direction: column;
+    }
+    iframe {
+        max-width: 150px;
+    }
+    #right-text {
+        text-align: left;
+        max-width: justify;
+    }
+    #pdf-fil {
+        text-align: left;
+        margin: 0;
+        width: 100%;
+    }
+} */
